@@ -13,4 +13,8 @@ function errorHandler(err, req, res, next) {
     default:
       return res.status(500).json({ message: err.message });
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1ce7cc7c1f06729c28cf5f7301d8d3208f70dd8c

@@ -302,4 +302,8 @@ async function sendPasswordResetEmail(account, origin) {
         html: `<h4>Reset Password Email</h4>
                ${message}`
     });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1ce7cc7c1f06729c28cf5f7301d8d3208f70dd8c

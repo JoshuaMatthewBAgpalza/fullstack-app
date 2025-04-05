@@ -25,4 +25,8 @@ async function initialize() {
 
     // sync all models with database
     await sequelize.sync({ alter: true });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1ce7cc7c1f06729c28cf5f7301d8d3208f70dd8c

@@ -236,4 +236,8 @@ function setTokenCookie(res, token) {
         expires: new Date(Date.now() + 7*24*60*60*1000)
     };
     res.cookie('refreshToken', token, cookieOptions);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1ce7cc7c1f06729c28cf5f7301d8d3208f70dd8c
